@@ -18,7 +18,7 @@ public class desafio2 {
 		tempoChegada[2] = JOptionPane.showInputDialog("Em que horário chegou o aluno 3?");
 		chegadaAluno[2] = Integer.parseInt(tempoChegada[2]);
 		tempoChegada[3] = JOptionPane.showInputDialog("Em que horário chegou o aluno 4?");
-		chegadaAluno[2] = Integer.parseInt(tempoChegada[3]);
+		chegadaAluno[3] = Integer.parseInt(tempoChegada[3]);
 		tempoChegada[4] = JOptionPane.showInputDialog("Em que horário chegou o aluno 5?");
 		chegadaAluno[4] = Integer.parseInt(tempoChegada[4]);
 
