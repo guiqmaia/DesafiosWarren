@@ -13,7 +13,7 @@ public class desafio3 {
 		int[] v1 = new int[3];
 		
 		for (int i = 0; i < 3; i++) {
-			v[i] = JOptionPane.showInputDialog("Digite o número" + (i + 1) + " da lista");
+			v[i] = JOptionPane.showInputDialog("Digite o número " + (i + 1) + " da lista");
 			v1[i] = Integer.parseInt(v[i]);
 		}
 		
