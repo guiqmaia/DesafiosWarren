@@ -19,18 +19,24 @@ public class desafio3 {
 		
 		System.out.println("Valor de n é igual a " + n1);
 		
-		if (v1[0] + v1[1] + v1[2] == n1) {
-			System.out.println("[ " + v1[0] + ", " + v1[1] + ", " + v1[2] + "]");
+		if (v1[0] + v1[0] + v1[0] == n1) {
+			System.out.println("[ " + v1[0] + ", " + v1[0] + ", " + v1[0] + "]");
 		}if (v1[0] + v1[0] + v1[1] == n1) {
-			System.out.println("[ " + v1[0] + ", " + v1[1] + ", " + v1[2] + "]");
+			System.out.println("[ " + v1[0] + ", " + v1[0] + ", " + v1[1] + "]");
 		}if (v1[0] + v1[1] + v1[1] == n1) {
 			System.out.println("[ " + v1[0] + ", " + v1[1] + ", " + v1[1] + "]");
+		}if (v1[0] + v1[0] + v1[2] == n1) {
+			System.out.println("[ " + v1[0] + ", " + v1[0] + ", " + v1[2] + "]");
 		}if (v1[0] + v1[2] + v1[2] == n1) {
 			System.out.println("[ " + v1[0] + ", " + v1[2] + ", " + v1[2] + "]");
+		}if (v1[1] + v1[1] + v1[1] == n1) {
+			System.out.println("[ " + v1[1] + ", " + v1[1] + ", " + v1[1] + "]");
 		}if (v1[1] + v1[1] + v1[2] == n1) {
 			System.out.println("[ " + v1[1] + ", " + v1[1] + ", " + v1[2] + "]");
 		}if (v1[1] + v1[2] + v1[2] == n1) {
 			System.out.println("[ " + v1[1] + ", " + v1[2] + ", " + v1[2] + "]");
+		}if (v1[2] + v1[2] + v1[2] == n1) {
+			System.out.println("[ " + v1[2] + ", " + v1[2] + ", " + v1[2] + "]");
 		}
 		
 	}
